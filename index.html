@@ -8,156 +8,213 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script/Montserrat:400,700/Roboto:400,400i&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/Homework6/styles/styles.css">
-    <!-- <link rel="stylesheet" href="/Homework6/styles/normalize.css"> -->
+    <link rel="stylesheet" href="/Homework10/styles/styles.css">
+    <link rel="stylesheet" href="../Homework10/styles/normalize.css">
 </head>
 
 <body>
     <header>
         <div class="wraper">
             <nav class="main-nav">
-                <a href="#" class="site_logo"> <img src="/Homework6/img/MoGo.png" alt="Mogo"></a>
-                <ul class="main_nav_items">
-                    <li class="main_nav_item"><a href="#">About</a></li>
-                    <li class="main_nav_item"><a href="#">Service</a></li>
-                    <li class="main_nav_item"><a href="#">Work</a></li>
-                    <li class="main_nav_item"><a href="#">Blog</a></li>
-                    <li class="main_nav_item"><a href="#">Contact</a></li>
+                <a href="#" class="link main-nav__logo"> <img src="/Homework10/img/MoGo.png" alt="Mogo"></a>
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a class="link menu__link" href="#">About</a></li>
+                    <li class="main-nav__item"><a class="link menu__link" href="#">Service</a></li>
+                    <li class="main-nav__item"><a class="link menu__link" href="#">Work</a></li>
+                    <li class="main-nav__item"><a class="link menu__link" href="#">Blog</a></li>
+                    <li class="main-nav__item"><a class="link menu__link" href="#">Contact</a></li>
+                    <li class="main-nav__item"><a class="link menu__link" href="#"> <svg
+                                class="main-nav__item--svg main-nav__item--white" width="15px" height="15px">
+                                <use href="img/symbol-defs.svg#icon-SHOPPING-CART"></use>
+                            </svg></a></li>
+                    <li class="main-nav__item"><a class="link menu__link" href="#"> <svg
+                                class="main-nav__item--svg main-nav__item--white" width="15px" height="15px">
+                                <use href="img/symbol-defs.svg#icon-MAGNIFYING-GLASS"></use>
+                            </svg></a></li>
                 </ul>
             </nav>
+            <div class="title--services">
+                <div class="title__bloc--services">
+                    <h2 class="title__text--services title--header">Creative Template</h2>
+                </div>
+                <div class="subtitle">
+                    <h3 class="subtitle__text--services subtitle--header">Welcome<br>to MoGo</h3>
+                </div>
+            </div>
+            <button class="button--white" type="button">Learn more</button>
         </div>
     </header>
     <main>
         <div class="wraper">
-            <div class="we_work_with_blok">
-                <div class="line"></div>
-                <div class="we_work_with">
-                    <h2>We work with</h2>
+            <div class="title--services">
+                <div class="title__line--red"></div>
+                <div class="title__bloc--services">
+                    <h2 class="title__text--services">We work with</h2>
                 </div>
-                <div class="amazing_services">
-                    <h3>Amazing Services</h3>
+                <div class="subtitle">
+                    <h3 class="subtitle__text--services">Amazing Services</h3>
                 </div>
             </div>
-            <ul class="menu_amazing_services">
-                <!-- <div class="menu_amazing_services_blok"> -->
-                <li class="menu_amazing_services_item_1">
-                    <p class="menu_amazing_services_item_name">Photography</p>
-                    <p class="menu_amazing_services_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+            <ul class="menu--main">
+                <li class="menu__item item-1">
+                    <svg class="main-nav__item--svg main-nav__item--absolute" width="31px" height="31px">
+                        <use href="img/symbol-defs.svg#icon-ALARM"></use>
+                    </svg>
+                    <p class="menu__item--name">Photography</p>
+                    <p class="menu__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor.</p>
                 </li>
-                <!-- </div>
-                <div class="menu_amazing_services_blok"> -->
-                <li class="menu_amazing_services_item_2">
-                    <p class="menu_amazing_services_item_name">Web Design</p>
-                    <p class="menu_amazing_services_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                <li class="menu__item item-2">
+                    <svg class="main-nav__item--svg main-nav__item--absolute" width="31px" height="31px">
+                        <use href="img/symbol-defs.svg#icon-LINE-GRAPH"></use>
+                    </svg>
+                    <p class="menu__item--name">Web Design</p>
+                    <p class="menu__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor.</p>
                 </li>
-                <!-- </div>
-                <div class="menu_amazing_services_blok"> -->
-                <li class="menu_amazing_services_item_3">
-                    <p class="menu_amazing_services_item_name">Creativity</p>
-                    <p class="menu_amazing_services_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                <li class="menu__item item-3">
+                    <svg class="main-nav__item--svg main-nav__item--absolute" width="31px" height="31px">
+                        <use href="img/symbol-defs.svg#icon-COMPUTER-_-OK"></use>
+                    </svg>
+                    <p class="menu__item--name">Creativity</p>
+                    <p class="menu__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor.</p>
                 </li>
-                <!-- </div>
-                <div class="menu_amazing_services_blok"> -->
-                <li class="menu_amazing_services_item_4">
-                    <p class="menu_amazing_services_item_name">Seo</p>
-                    <p class="menu_amazing_services_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                <li class="menu__item item-4">
+                    <svg class="main-nav__item--svg main-nav__item--absolute" width="31px" height="31px">
+                        <use href="img/symbol-defs.svg#icon-BOOK-2"></use>
+                    </svg>
+                    <p class="menu__item--name">Seo</p>
+                    <p class="menu__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor.</p>
                 </li>
-                <!-- </div>
-                <div class="menu_amazing_services_blok"> -->
-                <li class="menu_amazing_services_item_5">
-                    <p class="menu_amazing_services_item_name">Css/Html</p>
-                    <p class="menu_amazing_services_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                <li class="menu__item item-5">
+                    <svg class="main-nav__item--svg main-nav__item--absolute" width="31px" height="31px">
+                        <use href="img/symbol-defs.svg#icon-HOME"></use>
+                    </svg>
+                    <p class="menu__item--name">Css/Html</p>
+                    <p class="menu__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor.</p>
                 </li>
-                <!-- </div>
-                <div class="menu_amazing_services_blok"> -->
-                <li class="menu_amazing_services_item_6">
-                    <p class="menu_amazing_services_item_name">Digital</p>
-                    <p class="menu_amazing_services_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                <li class="menu__item item-6">
+                    <svg class="main-nav__item--svg main-nav__item--absolute" width="31px" height="31px">
+                        <use href="img/symbol-defs.svg#icon-IMAGE"></use>
+                    </svg>
+                    <p class="menu__item--name">Digital</p>
+                    <p class="menu__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor.</p>
                 </li>
-                <!-- </div> -->
             </ul>
         </div>
         <div class="wraper">
-            <div class="who_we_are_blok">
-                <div class="line"></div>
-                <div class="we_work_with">
-                    <h2>Who we are</h2>
+            <div class="title--team">
+                <div class="title__line--red"></div>
+                <div class="title__bloc--team">
+                    <h2 class="title__text--team">Who we are</h2>
                 </div>
-                <div class="amazing_services">
-                    <h3>Meet our team</h3>
+                <div class="subtitle">
+                    <h3 class="subtitle__text--team">Meet our team</h3>
                 </div>
             </div>
-            <div class="general_information_team">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            <div class="info-team">
+                <p class="info-team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. </p>
             </div>
 
-            <ul class="our_team_list">
-                <li class="our_team_item">
-                    <div class="our_team_item_cart">
-                        <div class="our_team_item_image">
-                            <div class="cart_icon_wrp">
-                                <button class="icon_btn facebook"><img src="/Homework6/img/facebook.png"
-                                        alt=""></button>
-                                <button class="icon_btn twitter"><img src="/Homework6/img/twitter.png" alt=""></button>
-                                <button class="icon_btn pinterest"><img src="/Homework6/img/pinterest.png"
-                                        alt=""></button>
-                                <button class="icon_btn instagram"><img src="/Homework6/img/instagram.png"
-                                        alt=""></button>
+            <ul class="team">
+                <li class="team__item">
+                    <div class="team__cart">
+                        <div class="team__image">
+                            <div class="icon">
+                                <button type="button" class="icon__btn facebook"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn twitter"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn pinterest"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn instagram"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></button>
                             </div>
-                            <div class="our_team_foto"><img src="/Homework6/img/Layer16.jpg" alt="">
+                            <div class="team__foto"><img src="./img/Layer 16.jpg"
+                                    srcset="./img/Layer16.jpg 380w, ./img/Layer16@2x.jpg 760w" sizes="381px"
+                                    alt="Matthew Dix">
                                 <div class="overlau"></div>
                             </div>
                         </div>
-                        <p class="our_team_item_name">Matthew Dix</p>
-                        <p class="our_team_item_profession">Graphic Design</p>
+                        <p class="team--name">Matthew Dix</p>
+                        <p class="team--profession">Graphic Design</p>
                     </div>
                 </li>
-                <li class="our_team_item">
-                    <div class="our_team_item_cart">
-                        <div class="our_team_item_image">
-                            <div class="cart_icon_wrp">
-                                <button class="icon_btn facebook"><img src="/Homework6/img/facebook.png"
-                                        alt=""></button>
-                                <button class="icon_btn twitter"><img src="/Homework6/img/twitter.png" alt=""></button>
-                                <button class="icon_btn pinterest"><img src="/Homework6/img/pinterest.png"
-                                        alt=""></button>
-                                <button class="icon_btn instagram"><img src="/Homework6/img/instagram.png"
-                                        alt=""></button>
+                <li class="team__item">
+                    <div class="team__cart">
+                        <div class="team__image">
+                            <div class="icon">
+                                <button type="button" class="icon__btn facebook"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn twitter"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn pinterest"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn instagram"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></button>
                             </div>
-                            <div class="our_team_foto"><img src="/Homework6/img/Layer19.jpg" alt="">
+                            <div class="team__foto"><img src="./img/Layer 16.jpg"
+                                    srcset="./img/Layer19.jpg 380w, ./img/Layer19@2x.jpg 760w" sizes="381px"
+                                    alt="Christopher Campbell">
                                 <div class="overlau"></div>
                             </div>
                         </div>
-                        <p class="our_team_item_name">Christopher </p>
-                        <p class="our_team_item_profession">Branding/UX design</p>
+                        <p class="team--name">Christopher Campbell</p>
+                        <p class="team--profession">Branding/UX design</p>
                     </div>
                 </li>
-                <li class="our_team_item">
-                    <div class="our_team_item_cart">
-                        <div class="our_team_item_image">
-                            <div class="cart_icon_wrp">
-                                <button class="icon_btn facebook"><img src="/Homework6/img/facebook.png"
-                                        alt=""></button>
-                                <button class="icon_btn twitter"><img src="/Homework6/img/twitter.png" alt=""></button>
-                                <button class="icon_btn pinterest"><img src="/Homework6/img/pinterest.png"
-                                        alt=""></button>
-                                <button class="icon_btn instagram"><img src="/Homework6/img/instagram.png"
-                                        alt=""></button>
+                <li class="team__item">
+                    <div class="team__cart">
+                        <div class="team__image">
+                            <div class="icon">
+                                <button type="button" class="icon__btn facebook"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn twitter"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-twitter"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn pinterest"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                                    </svg></button>
+                                <button type="button" class="icon__btn instagram"><svg
+                                        class="main-nav__item--svg main-nav__item--social" width="26px" height="26px">
+                                        <use href="img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg></button>
                             </div>
-                            <div class="our_team_foto"><img src="/Homework6/img/Layer18.jpg" alt="">
+                            <div class="team__foto"><img src="./img/Layer 16.jpg"
+                                    srcset="./img/Layer18.jpg 380w, ./img/Layer18@2x.jpg 760w" sizes="381px"
+                                    alt="Michael Fertig">
                                 <div class="overlau"></div>
                             </div>
                         </div>
-                        <p class="our_team_item_name">Michael Fertig</p>
-                        <p class="our_team_item_profession">Developer</p>
+                        <p class="team--name">Michael Fertig</p>
+                        <p class="team--profession">Developer</p>
                     </div>
                 </li>
             </ul>
@@ -166,15 +223,15 @@
     <!-- ===================footer==================== -->
     <footer>
         <div class="footer wraper">
-            <div class="footer_info">
-                <p><span>&reg;</span> MoGo free PSD template by <a href="#">Laaqiq</a></p>
+            <div class="footer__info">
+                <p class="footer__text"><span>&reg;</span> MoGo free PSD template by <a class="link footer_link"
+                        href="#">Laaqiq</a></p>
             </div>
             <div class="input">
-                <p><input class="input_email" type="email" value="Your email...">
-                    <button class="subscribe">Subscribe</button>
+                <p><input class="input__email" type="email" value="Your email...">
+                    <button type="button" class="input__button">Subscribe</button>
             </div>
         </div>
-
     </footer>
 </body>
 
