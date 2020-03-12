@@ -284,6 +284,9 @@ header {
 
 .team__foto {
     position: relative;
+    -webkit-transition-duration: 1s all ease;
+         -o-transition-duration: 1s all ease;
+            transition: 1s all ease;
 }
 
 .overlau {
@@ -295,15 +298,18 @@ header {
     position: absolute;
     top: 0px;
     opacity: 0;
+    -webkit-transition-duration: 1s all ease;
+         -o-transition-duration: 1s all ease;
+            transition: 1s all ease;
 }
 
 .team__cart:hover .team__foto {
     -webkit-transform: translate(-10px, -10px);
         -ms-transform: translate(-10px, -10px);
             transform: translate(-10px, -10px);
-    -webkit-transition-duration: 1s;
-         -o-transition-duration: 1s;
-            transition-duration: 1s;
+    /* -webkit-transition-duration: 1s all ease;
+         -o-transition-duration: 1s all ease;
+            transition: 1s all ease; */
 }
 
 .team__cart:hover .icon {
@@ -319,9 +325,9 @@ header {
 
 .icon__btn:hover {
     background-color: rgb(243, 129, 129);
-    -webkit-transition-duration: 0.8s;
+    /* -webkit-transition-duration: 0.8s;
          -o-transition-duration: 0.8s;
-            transition-duration: 0.8s;
+            transition-duration: 0.8s; */
 }
 
 .icon__btn {
@@ -330,6 +336,9 @@ header {
     width: 55px;
     height: 55px;
     background-color: rgb(252, 227, 138);
+    -webkit-transition-duration: 1s all ease;
+    -o-transition-duration: 1s all ease;
+       transition: 1s all ease;
 }
 
 .icon__btn:hover .main-nav__item--social {
@@ -353,6 +362,9 @@ header {
     z-index: 1;
     margin: 208px 79px;
     opacity: 0;
+    -webkit-transition-duration: 1s all ease;
+    -o-transition-duration: 1s all ease;
+       transition: 1s all ease;
 }
 
 .main-nav__item--social {
