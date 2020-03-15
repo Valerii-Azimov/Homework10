@@ -43,7 +43,7 @@ header {
             align-items: flex-end;
 }
 
-.main-nav__list {
+.list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -76,9 +76,9 @@ header {
 .menu__link:hover {
     color: rgb(252, 227, 138);
     border-bottom: 2px solid rgb(252, 227, 138);
-    -webkit-transition-duration: 0.8s;
-         -o-transition-duration: 0.8s;
-            transition-duration: 0.8s;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
     fill: rgb(252, 227, 138);
 
 }
