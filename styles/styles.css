@@ -70,15 +70,16 @@ header {
 
 .menu__link {
     color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom-color 0.4s;
+    -o-transition: border-bottom-color 0.4s;
+    transition: border-bottom-color 0.4s;
     /* border-bottom: red; */
 }
 
 .menu__link:hover {
     color: rgb(252, 227, 138);
     border-bottom: 2px solid rgb(252, 227, 138);
-    -webkit-transition-duration: 0.4s;
-         -o-transition-duration: 0.4s;
-            transition-duration: 0.4s;
     fill: rgb(252, 227, 138);
 
 }
